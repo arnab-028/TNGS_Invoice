@@ -1,0 +1,2 @@
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.babel.js",
+    "start": "cross-env WEBPACK_IS_DEV_SERVER=true NODE_ENV=development webpack serve --config webpack.config.babel.js"
